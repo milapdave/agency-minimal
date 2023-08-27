@@ -43,7 +43,7 @@ function YoutubePlayer({ videoId, posterImageUrl }) {
             onClick={toggleVideo}
           >
             {/* Use your play icon image */}
-            <Image className="lg:w-auto w-14 h-14" src={play} alt="Play" />
+            <Image className="lg:w-auto lg:h-auto w-14 h-14" src={play} alt="Play" />
           </button>
         )}
       </div>
