@@ -46,8 +46,8 @@ export default function Home() {
             Meet exciting feature of app
           </h2>
 
-          <div class="grid grid-cols-1 gap-4 gap-y-10 lg:grid-cols-4 lg:gap-8">
-            <div class="text-center px-4">
+          <div className="grid grid-cols-1 gap-4 gap-y-10 lg:grid-cols-4 lg:gap-8">
+            <div className="text-center px-4">
               <Image src={img} alt="" className="mx-auto" />
               <h3 className="text-lg font-semibold my-4">
                 Unlimited Customization
@@ -57,7 +57,7 @@ export default function Home() {
                 your blood tests.
               </p>
             </div>
-            <div class="text-center px-4">
+            <div className="text-center px-4">
               <Image src={img2} alt="" className="mx-auto" />
               <h3 className="text-lg font-semibold my-4">
                 Vector shape & resizable
@@ -67,7 +67,7 @@ export default function Home() {
                 your blood tests.
               </p>
             </div>
-            <div class="text-center px-4">
+            <div className="text-center px-4">
               <Image src={img3} alt="" className="mx-auto" />
               <h3 className="text-lg font-semibold my-4">Editing freedom</h3>
               <p className="text-base">
@@ -75,7 +75,7 @@ export default function Home() {
                 your blood tests.
               </p>
             </div>
-            <div class="text-center px-4">
+            <div className="text-center px-4">
               <Image src={img4} alt="" className="mx-auto" />
               <h3 className="text-lg font-semibold my-4">Best Award history</h3>
               <p className="text-base">
@@ -91,17 +91,17 @@ export default function Home() {
           <div>
             <Image src={banner2} alt="" />
           </div>
-          <div class="max-w-lg">
-            <h2 class="text-3xl font-semibold sm:text-5xl sm:leading-tight">
+          <div className="max-w-lg">
+            <h2 className="text-3xl font-semibold sm:text-5xl sm:leading-tight">
               Boost your agencies by choosing Ninja Developers
             </h2>
 
-            <p class="mt-4 max-w-lg sm:text-lg/relaxed">
+            <p className="mt-4 max-w-lg sm:text-lg/relaxed">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
               illo tenetur fuga ducimus numquam ea!
             </p>
 
-            <div class="mt-8 flex flex-wrap gap-4 text-center">
+            <div className="mt-8 flex flex-wrap gap-4 text-center">
               <Button color="secondary" size="large">
                 Learn more
               </Button>
@@ -161,7 +161,7 @@ export default function Home() {
             </SwiperSlide>
           </Swiper>
 
-          <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-16 w-full max-w-4xl mx-auto pt-10">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-16 w-full max-w-4xl mx-auto pt-10">
             <div
               className={`${
                 activeSlideIndex === 0 ? "!border-primary" : "not active"
@@ -218,19 +218,19 @@ export default function Home() {
           <div className="order-2">
             <Image src={banner3} alt="" />
           </div>
-          <div class="max-w-[550px]">
-            <h2 class="text-3xl font-semibold sm:text-5xl sm:leading-tight">
+          <div className="max-w-[550px]">
+            <h2 className="text-3xl font-semibold sm:text-5xl sm:leading-tight">
               Free Customer Support to ensure what you like to expect
             </h2>
 
-            <p class="mt-4 max-w-lg sm:text-lg/relaxed">
+            <p className="mt-4 max-w-lg sm:text-lg/relaxed">
               We offer a risk-free trial period of up to two weeks. You will
               only have to pay if you are happy with the developer and wish to
               continue. If you are unsatisfied, we’ll refund payment or fix
               issues on our dime period customers.
             </p>
 
-            <div class="mt-8 flex flex-wrap gap-4 text-center">
+            <div className="mt-8 flex flex-wrap gap-4 text-center">
               <Button color="secondary" size="large">
                 Learn more
               </Button>
@@ -244,8 +244,8 @@ export default function Home() {
             Tutorials that people love most
           </h2>
 
-          <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
-            <div class="bg-white borer border-[#F3F4F5] rounded overflow-hidden hover:shadow-2xl">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+            <div className="bg-white borer border-[#F3F4F5] rounded overflow-hidden hover:shadow-2xl">
               <Image src={blog1} alt="" className="" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold mb-4">
@@ -258,7 +258,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div class="bg-white borer border-[#F3F4F5] rounded overflow-hidden hover:shadow-2xl">
+            <div className="bg-white borer border-[#F3F4F5] rounded overflow-hidden hover:shadow-2xl">
               <Image src={blog1} alt="" className="" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold mb-4">
@@ -271,7 +271,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div class="bg-white borer border-[#F3F4F5] rounded overflow-hidden hover:shadow-2xl">
+            <div className="bg-white borer border-[#F3F4F5] rounded overflow-hidden hover:shadow-2xl">
               <Image src={blog1} alt="" className="" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold mb-4">
